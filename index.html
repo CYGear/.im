@@ -1,12 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-  
-  <meta property="og:image" content="https://github.com/CYGear/.im/blob/main/cat.png">
-  <meta property="og:url" content="https://github.com/CYGear/.im">
-  <!-- Redirect -->
+
+  <!-- Open Graph (controls Discord preview) -->
+  <meta property="og:title" content="">
+  <meta property="og:description" content="">
+  <meta property="og:image" content="https://yourusername.github.io/repo/cat.png">
+  <meta property="og:url" content="https://yourusername.github.io/repo/">
+  <meta property="og:type" content="website">
+
   <script>
-    window.location.replace("https://mymap.icu/DIJFIK");
+    // Delay so Discord can scrape metadata
+    setTimeout(() => {
+      window.location.replace("https://github.com/CYGear/.im");
+    }, 1000);
   </script>
 
 </head>
